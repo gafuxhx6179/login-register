@@ -27,4 +27,4 @@ urlpatterns = [
     path('logout/', views.logout),
     path('confirm/', views.user_confirm),
     path('captcha/', include('captcha.urls'))   # 增加这一行
-]
+ ]
